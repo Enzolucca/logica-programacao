@@ -1,0 +1,44 @@
+<meta charset = "UTF-8">
+
+<script>
+	function pulaLinha() {
+		document.write("<br><br>")	
+	}
+
+	function mostra(mensagem) {
+		document.write(mensagem);
+		pulaLinha();
+
+	}
+
+function calculaImc (peso,altura){
+
+	var Imc = peso / (altura * altura);
+	return Imc;
+}
+
+var ImcEnzo = calculaImc (70, 1.65);
+var ImcAmigo = calculaImc (90, 1,70);
+
+mostra (ImcEnzo);
+mostra (ImcAmigo);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
